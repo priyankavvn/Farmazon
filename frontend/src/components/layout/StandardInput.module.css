@@ -1,0 +1,41 @@
+.box {
+  position: relative;
+  padding: 0px;
+}
+.name {
+  color: var(--black-2);
+  margin-bottom: 8px;
+}
+.field {
+  padding-left: 16px;
+  height: 48px;
+  margin-left: 4px;
+  border-radius: 8px;
+  background-color: var(--black-2);
+  color: var(--black-90);
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.field::placeholder {
+  color: var(--black-30);
+}
+input {
+  /* width: fit-content; */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  outline: none;
+  background-color: var(--black-2);
+}

@@ -1,0 +1,70 @@
+.topbar {
+  position: absolute;
+  width: 1920px;
+  height: 128px;
+  left: 0px;
+  top: 0px;
+
+  /* Primary Colors/Tree green */
+
+  background: #73952e;
+}
+
+.farmazon {
+  position: absolute;
+  left: 3.33%;
+  right: 79.74%;
+  top: 21.33%;
+  bottom: 20.67%;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 87px;
+
+  /* Secondary Colors/Black 2 */
+
+  color: var(--black-2);
+}
+
+.contact {
+  position: absolute;
+  left: 82.92%;
+  right: 11.77%;
+  top: 44%;
+  bottom: 36%;
+
+  /* H4 */
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+
+  /* Secondary Colors/Black 2 */
+  color: var(--black-2);
+}
+
+.about {
+  position: absolute;
+  left: 90.83%;
+  right: 5.21%;
+  top: 44%;
+  bottom: 36%;
+
+  /* H4 */
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+
+  /* Secondary Colors/Black 2 */
+
+  color: var(--black-2);
+}

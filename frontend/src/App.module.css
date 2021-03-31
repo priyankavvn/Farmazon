@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans";
+
+  /* COLORS */
+  /* PRIMARY */
+  --black: #000000;
+  --white: #ffffff;
+  --tree-green: #73952e;
+  --tree-brown: #4b392f;
+  --primary-green: #4caf50;
+  --primary-blue: #2196f3;
+  --primary-yellow: #fcaf0a;
+  --primary-red: #f44336;
+  /* SECONDARY */
+  --black-90: #1e1e1e;
+  --black-60: #666666;
+  --black-30: #b3b3b3;
+  --black-10: #e5e5e5;
+  --black-2: #fafafa;
+
+  --green-20: #defaa4;
+  --blue-20: #d5f6ff;
+  --yellow-20: #fee99c;
+  --red-20: #ffbcaa;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+h2 {
+  font-size: 36px;
+  letter-spacing: 1.5px;
+}
+h3 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+h4 {
+  font-size: 22px;
+  letter-spacing: 0px;
+}
+h5 {
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+h6 {
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+caption {
+  font-size: 14px;
+  letter-spacing: 0px;
+}
+
+.App {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  /* Secondary Colors/Black 2 */
+
+  background: var(--black-2);
+}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styles from './App.module.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import jwt_decode from "jwt-decode";
 import setAuthToken from "./utils/setAuthToken";
@@ -35,7 +36,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <Router>
-          <div className="App" styles={{ backgroundImage:`url(../public/farming.jpeg)` }}>
+          <div className={styles.App}>
             <Navbar />
             <Route exact path="/" component={Landing} />
             <Route exact path="/register" component={Register} />
