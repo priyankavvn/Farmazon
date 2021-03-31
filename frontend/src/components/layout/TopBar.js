@@ -9,6 +9,7 @@ function App() {
         <h1 className={TopbarCSS.farmazon}>
           Farmazon
         </h1>
+        <div className={TopbarCSS.emptydiv}></div>
         <h4 className={TopbarCSS.contact}>
           CONTACT
         </h4>

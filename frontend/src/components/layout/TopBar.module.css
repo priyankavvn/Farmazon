@@ -1,9 +1,10 @@
 .topbar {
-  position: absolute;
+  position: fixed;
   width: 1920px;
   height: 128px;
   left: 0px;
   top: 0px;
+  display: flex;
 
   /* Primary Colors/Tree green */
 
@@ -11,37 +12,39 @@
 }
 
 .farmazon {
-  position: absolute;
-  left: 3.33%;
-  right: 79.74%;
-  top: 21.33%;
-  bottom: 20.67%;
+  margin-left: 64px;
+  justify-self: center;
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: 800;
   font-size: 64px;
   line-height: 87px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 
   /* Secondary Colors/Black 2 */
 
   color: var(--black-2);
 }
 
-.contact {
-  position: absolute;
-  left: 82.92%;
-  right: 11.77%;
-  top: 44%;
-  bottom: 36%;
+.emptydiv {
+  flex: 1;
+}
 
+.contact {
+  padding:25px;
   /* H4 */
 
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 30px;
+  line-height: 128px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
   /* identical to box height */
 
   /* Secondary Colors/Black 2 */
@@ -49,11 +52,8 @@
 }
 
 .about {
-  position: absolute;
-  left: 90.83%;
-  right: 5.21%;
-  top: 44%;
-  bottom: 36%;
+  margin-right: 100px;
+  padding: 25px;
 
   /* H4 */
 
@@ -61,10 +61,21 @@
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
-  line-height: 30px;
+  display: flex;
+  align-items: center;
+  line-height: 128px;
+  cursor: pointer;
   /* identical to box height */
 
   /* Secondary Colors/Black 2 */
 
   color: var(--black-2);
+}
+
+.contact:hover {
+  border-bottom: 5px solid var(--tree-brown);
+}
+
+.about:hover {
+  border-bottom: 5px solid var(--tree-brown);
 }

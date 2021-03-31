@@ -11,8 +11,8 @@ function SignInCard() {
                     Sign&nbsp;In
                 </h1>
             </div>
-            <StandardInput name="Username" placeholder = "Type your Username..." marginT = {42} marginL = {20} width = {536}/>
-            <StandardInput name="Password" placeholder = "Type your Password..." marginT = {42} marginL = {20} width = {536}/>
+            <StandardInput type = "text" name="Username" placeholder = "Type your Username..." marginT = {42} marginL = {20} width = {536}/>
+            <StandardInput type = "password" name="Password" placeholder = "Type your Password..." marginT = {42} marginL = {20} width = {536}/>
             <div className={SignInCSS.underpassword}>
                 <div className={SignInCSS.remember}>
                     <div className={SignInCSS.rememberBox}>

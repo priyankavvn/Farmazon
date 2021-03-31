@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
 
-  filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.2));
 
   /* Primary Colors/Tree green */
 
@@ -34,6 +34,7 @@
   width: 16px;
   background: var(--black-2);
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .rememberText {
@@ -54,16 +55,16 @@
 
 .underpassword {
   margin-left: 28px;
-  width: 544px;
+  width: 540px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 .Checked {
   margin: 2px;
+  cursor: pointer;
 }
 .forgotpass {
-  margin: 0px;
   width: fit-content;
   font-family: Open Sans;
   font-style: normal;
@@ -71,6 +72,7 @@
   font-size: 14px;
   line-height: 19px;
   color: var(--tree-brown);
+  cursor: pointer;
 }
 
 .accountcheck {
@@ -96,6 +98,7 @@
   font-size: 14px;
   line-height: 19px;
   color: var(--tree-brown);
+  cursor: pointer;
 }
 
 .loginbtn {
@@ -109,6 +112,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   /* Primary Colors/Tree Brown */
 
   background: var(--tree-brown);
@@ -125,6 +129,11 @@
   display: flex;
   align-items: center;
   letter-spacing: 1px;
+  cursor: pointer;
 
   color: var(--black-2);
+}
+
+.loginbtn:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--tree-brown);
 }

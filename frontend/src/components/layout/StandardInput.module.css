@@ -3,39 +3,37 @@
   padding: 0px;
 }
 .name {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
   color: var(--black-2);
   margin-bottom: 8px;
 }
-.field {
+.input {
   padding-left: 16px;
-  height: 48px;
-  margin-left: 4px;
-  border-radius: 8px;
-  background-color: var(--black-2);
-  color: var(--black-90);
-  border: none;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
-}
-.field::placeholder {
-  color: var(--black-30);
-}
-input {
   /* width: fit-content; */
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 48px;
+  border-radius: 8px;
   border: none;
   outline: none;
   background-color: var(--black-2);
+  cursor: text;
+}
+.input::placeholder {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--black-30);
+}
+.input:hover {
+  border: 2px;
+  border-color: black;
 }
