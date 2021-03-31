@@ -1,0 +1,130 @@
+.maincard {
+  position: absolute;
+  width: 600px;
+  height: 700px;
+  left: 635px;
+  top: 228px;
+  display: flex;
+  flex-direction: column;
+
+  filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.1));
+
+  /* Primary Colors/Tree green */
+
+  background: var(--tree-green);
+  border-radius: 16px;
+}
+
+.topbox {
+  height: 100px;
+  background: var(--tree-brown);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px 16px 0 0;
+}
+
+.remember {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+.rememberBox {
+  height: 16px;
+  width: 16px;
+  background: var(--black-2);
+  border-radius: 2px;
+}
+
+.rememberText {
+  margin-left: 4px;
+  /* Caption */
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  width: auto;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* Secondary Colors/Black 2 */
+
+  color: var(--black-2);
+}
+
+.underpassword {
+  margin-left: 28px;
+  width: 544px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.Checked {
+  margin: 2px;
+}
+.forgotpass {
+  margin: 0px;
+  width: fit-content;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--tree-brown);
+}
+
+.accountcheck {
+  margin-top: 24px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.accountcheck h6 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--black-2);
+}
+.accountcheck caption {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--tree-brown);
+}
+
+.loginbtn {
+  width: 300px;
+  height: 64px;
+  margin-top: auto;
+  margin-bottom: 48px;
+  justify-self: end;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Primary Colors/Tree Brown */
+
+  background: var(--tree-brown);
+  border-radius: 32px;
+}
+
+.loginbtn h3 {
+  /* H3 */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+
+  color: var(--black-2);
+}
