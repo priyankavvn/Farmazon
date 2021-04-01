@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600,800");
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.2));
+  width: 350px;
+  background-color: #73952e;
+  padding: 60px;
+}
+
+.wraptitle {
+  position: relative;
+  background-color: #433520;
+  border-radius: 5px;
+  margin-top: -20px;
+}
+.registerForm {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textInput {
+  padding-left: 10px;
+  height: 50px;
+  margin-bottom: 30px;
+  align-self: stretch;
+  font-family: "Open Sans", Helvetica;
+  color: white;
+
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255, 255, 255, 0.7);
+  background-color: transparent;
+}
+
+.registerForm button {
+  background-color: #433520;
+  border: none;
+  color: white;
+  height: 60px;
+  padding: 15px 32px;
+  width: 100%;
+  border-radius: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+}
+
+.textInput::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Open Sans", Helvetica;
+}
+
+.registerForm button:active {
+  transform: scale(0.9);
+  transition-duration: 100ms;
+}
+
+.registerTitle {
+  font-family: "Open Sans", Helvetica;
+  color: white;
+  align-self: center;
+}
+
+.touCheckboxLabel {
+  font-family: "Open Sans", Helvetica;
+  vertical-align: bottom;
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.touCheckbox {
+  vertical-align: middle;
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  margin-left: -20px;
+  margin-bottom: 12px;
+  background-color: #59a96a;
+}
+
+.disabled {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.disabled:active {
+  transform: none !important;
+}
+
+.invisible {
+  display: none;
+}
+
+.errorMessage {
+  margin-top: 20px;
+  font-family: "Open Sans", Helvetica;
+  padding: 0px 40px;
+  color: red;
+  font-weight: 200;
+  text-align: center;
+}
