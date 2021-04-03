@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600,800");
+.about-container {
+    margin: 150px 150px;
+    display: flex;
+    align-items: center;
+    /* height: 350px; */
+    background-color: #FAFAFA;
+  }
+  
+  .image-container {
+    width: 50%;
+    height: 350px;
+    padding: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    background: url("https://www.croptracker.com/images/blog/vertical_farming/verticalFarmingLettuce.png")
+      no-repeat center / contain;
+  }
+  
+  .text-container {
+    padding: 10px;
+    height: 100%;
+    width: 50%;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    color: var(--treebrown);
+  }
+  
+  .about-description {
+    font-size: 20px;
+    color: var(--treebrown);
+    font-style: normal;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .list li::before {
+    font-family: "Open Sans", Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    content: "\f058";
+    width: 20px;
+    height: 20px;
+    color: var(--primary);
+    padding-right: 5px;
+  }
+  
+  .list li {
+    padding: 10px 0;
+    color: var(--treebrown);
+    font-weight: 550;
+    font-style: italic;
+  }
+  
+  @media (max-width: 1100px) {
+    .about-container {
+      margin: 100px 50px;
+    }
+  
+    .about-title {
+      font-size: 2rem;
+    }
+  
+    .about-description,
+    .list li {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      margin: 100px 25px;
+    }
+  
+    .image-container,
+    .text-container {
+      width: 75%;
+    }
+  
+    .image-container {
+      padding: 15px;
+      padding-bottom: 0px;
+    }
+  
+    .text-container {
+      padding: 15px;
+      padding-top: 0;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .image-container {
+      height: 250px;
+    }
+  }
+  
